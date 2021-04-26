@@ -37,4 +37,6 @@ strong {
 .view {
   margin-top: 18px;
 }
-
+form.form-delete{
+  display: inline;
+}
