@@ -38,11 +38,11 @@ class Question extends Model
         return "unasnwered";
     }
 
-    // public function getBodyHtmlAttribute()
-    // {
-    //     return \Parsedown::instance()->next($this->body);
-    // }
-    public  function answers()
+    public function getBodyHtmlAttribute()
+    {
+        return \Parsedown::instance()->next($this->body);
+    }
+    public function answers()
     {
         return $this->hasMany(Answer::class);
     }
