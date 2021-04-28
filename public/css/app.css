@@ -40,3 +40,35 @@ strong {
 form.form-delete{
   display: inline;
 }
+.vote-controls .vote-up,.vote-controls .vote-down{
+  min-width: 60px;
+  margin-right: 30px;
+  text-align: center;
+  color: gray;
+}
+.vote-controls .vote-up{
+  color: black;
+}
+.vote-controls span, a{
+    display: block;
+    font-weight: 700;
+  }
+.vote-controls .votes-count{
+  font-size: 25px;
+}
+.vote-controls .favorite{
+  min-width: 60px;
+  margin-right: 30px;
+  text-align: center;
+  color: yellow;
+}
+.vote-controls .favorites-count{
+  font-size: 12px;
+}
+.vote-controls .vote-accept{
+  min-width: 60px;
+  margin-right: 30px;
+  text-align: center;
+  margin-right: 30px;
+  color: green;
+}
